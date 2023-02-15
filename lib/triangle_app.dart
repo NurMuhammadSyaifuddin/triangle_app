@@ -18,7 +18,7 @@ String detectTriangle(num sideA, num sideB, num sideC){
 
   sides.sort();
   if (sides[0] == sides[1] || sides[1] == sides[2]) {
-    throw Exception('Input is not valid');
+    throw Exception('Input is not valid, please try again');
   }
 
   return "Segitiga Sembarang";
